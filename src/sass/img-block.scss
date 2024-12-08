@@ -1,0 +1,46 @@
+@use "variables";
+
+.img-block {
+  margin: 20px auto;
+  max-width: 1200px;
+  img {
+    display: none;
+    width: 100%;
+  }
+}
+
+// Desktop
+@media (min-width: variables.$tabletLandscape) {
+  .img-block {
+    .show-for-desktop {
+      display: block;
+    }
+  }
+}
+// Between tabletPortrait and tabletLandscape
+@media (min-width: variables.$tabletPortrait) and (max-width: calc(variables.$tabletLandscape - 1px)) {
+  .img-block {
+    .show-for-tablet-landscape {
+      display: block;
+    }
+  }
+}
+
+// Between tabletLandscape and mobileLandscape
+@media (min-width: variables.$mobileLandscape) and (max-width: calc(variables.$tabletPortrait - 1px)) {
+  .img-block {
+    background-color: red;
+    .show-for-tablet-portrait {
+      display: block;
+    }
+  }
+}
+
+// Between mobileLandscape and mobilePortrait
+@media (max-width: calc(variables.$mobileLandscape - 1px)) {
+  .img-block {
+    .show-for-mobile {
+      display: block;
+    }
+  }
+}

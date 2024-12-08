@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT-Medium/MarkOT-Medium.eot");
+  src: url("MarkOT-Medium/MarkOT-Medium.eot?#iefix") format("embedded-opentype"),
+    url("MarkOT-Medium/MarkOT-Medium.woff") format("woff"),
+    url("MarkOT-Medium/MarkOT-Medium.woff2") format("woff2"),
+    url("MarkOT-Medium/MarkOT-Medium.ttf") format("truetype"),
+    url("MarkOT-Medium/MarkOT-Medium.svg#MarkOT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT-Heavy/MarkOT-Heavy.eot");
+  src: url("MarkOT-Heavy/MarkOT-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("MarkOT-Heavy/MarkOT-Heavy.woff") format("woff"),
+    url("MarkOT-Heavy/MarkOT-Heavy.woff2") format("woff2"),
+    url("MarkOT-Heavy/MarkOT-Heavy.ttf") format("truetype"),
+    url("MarkOT-Heavy/MarkOT-Heavy.svg#MarkOT-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT/MarkOT.eot");
+  /* IE9 Compat Modes */
+  src: url("MarkOT/MarkOT.eot?#iefix") format("embedded-opentype"),
+    url("MarkOT/MarkOT.woff") format("woff"), url("MarkOT/MarkOT.ttf") format("truetype"),
+    url("MarkOT/MarkOT.svg#MarkOT") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+}

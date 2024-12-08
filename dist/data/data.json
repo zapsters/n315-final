@@ -1,0 +1,282 @@
+[
+  {
+    "productName": "K-Brew + Chill™ Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$99.99",
+    "price_siteDeal": "",
+    "price_original": "<sup>$</sup>199<sup>99</sup>",
+    "rating": 4.6,
+    "ratings": 263,
+    "coupon": "20% OFF - GIFTYBREWS",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "K-Duo® Hot & Iced Single Serve & Carafe Coffee Maker (Gen 2)",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Duo-hot-and-iced-Single-Serve-Carafe-Coffee-Maker-Gen2_5000378536_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$99.99",
+    "price_siteDeal": "$99.99",
+    "price_original": "<sup>$</sup>199<sup>99</sup>",
+    "rating": 4.6,
+    "ratings": 390,
+    "coupon": "",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Duo-hot-and-iced-Single-Serve-Carafe-Coffee-Maker-Gen2_5000378536_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "Keurig® K-Classic® Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K50-Coffee-Maker_5000204441_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$74.99",
+    "price_siteDeal": "$79.99",
+    "price_original": "<sup>$</sup>149<sup>99</sup>",
+    "rating": 4.2,
+    "ratings": 3185,
+    "coupon": "",
+    "banner": "47% OFF - NO CODE REQUIRED",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K50-Coffee-Maker_5000204441_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "Keurig® K-Select® Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359828_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$74.99",
+    "price_siteDeal": "$69.99",
+    "price_original": "<sup>$</sup>149<sup>99</sup>",
+    "rating": 4.1,
+    "ratings": 2952,
+    "coupon": "",
+    "banner": "53% OFF - NO CODE REQUIRED",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#BB3A56",
+        "image": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359889_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      },
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359828_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      },
+      {
+        "hex": "#A5CFD3",
+        "image": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359890_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      },
+      {
+        "hex": "#32425E",
+        "image": "https://images.keurig.com/is/image/keurig/K-Select-Coffee-Maker_5000359892_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      }
+    ]
+  },
+  {
+    "productName": "Keurig® K-Elite® Single Serve Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$94.99",
+    "price_siteDeal": "$109.99",
+    "price_original": "<sup>$</sup>189<sup>99</sup>",
+    "rating": 4.4,
+    "ratings": 4875,
+    "coupon": "",
+    "banner": "42% OFF - NO CODE REQUIRED",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#A3A7A8",
+        "image": "https://images.keurig.com/is/image/keurig/K-Elite-Single-Serve-Coffee-Maker_5000359832_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      },
+      {
+        "hex": "#e3e3e3",
+        "image": "https://images.keurig.com/is/image/keurig/K-Elite-Single-Serve-Coffee-Maker_5000359833_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      },
+      {
+        "hex": "#C4B8AA",
+        "image": "https://images.keurig.com/is/image/keurig/K-Elite-Single-Serve-Coffee-Maker_5000359831_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      }
+    ]
+  },
+  {
+    "productName": "K-Supreme® SMART Single Serve Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Supreme-SMART-Coffee-Maker_5000367509_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$49.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>179<sup>99</sup>",
+    "rating": 4.3,
+    "ratings": 790,
+    "coupon": "30% OFF - SMARTBREW30",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-SMART-Coffee-Maker_5000367509_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      },
+      {
+        "hex": "#EFE8E9",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-SMART-Coffee-Maker_5000367515_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      },
+      {
+        "hex": "#969091",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-SMART-Coffee-Maker_5000367513_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      }
+    ]
+  },
+  {
+    "productName": "K-Supreme Plus® SMART Single Serve Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Supreme-Plus-SMART-Coffee-Maker_5000365542_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$99.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>199<sup>99</sup>",
+    "rating": 4.3,
+    "ratings": 1991,
+    "coupon": "30% OFF - SMARTBREW30",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-Plus-SMART-Coffee-Maker_5000361470_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      },
+      {
+        "hex": "#BBBCBC",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-Plus-SMART-Coffee-Maker_5000365542_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 0
+      }
+    ]
+  },
+  {
+    "productName": "K-Duo® Single Serve & Carafe Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Duo-Single-Serve-Carafe-Coffee-Maker_5000204977_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$94.99",
+    "price_siteDeal": "$99.99",
+    "price_original": "<sup>$</sup>189<sup>99</sup>",
+    "rating": 3.6,
+    "ratings": 2016,
+    "coupon": "",
+    "banner": "47% OFF - NO CODE REQUIRED",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Duo-Single-Serve-Carafe-Coffee-Maker_5000204977_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "K-Café® SMART Single Serve Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker_5000365485_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$99.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>199<sup>99</sup>",
+    "rating": 4.5,
+    "ratings": 716,
+    "coupon": "30% OFF - SMARTBREW30",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Cafe-SMART-Coffee-Latte-Cappuccino-Maker_5000365485_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "K-Café® Special Edition Single Serve Coffee Latte &...",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Cafe-Special-Edition-Coffee-Latte-Cappuccino-Maker_5000341465_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$49.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>199<sup>99</sup>",
+    "rating": 4.4,
+    "ratings": 2753,
+    "coupon": "20% OFF - GIFTYBREWS",
+    "banner": "2 FREE BOXES - BREW2FREE",
+    "bannerColor": "#FFC92F",
+    "bannerTextColor": "#000",
+    "colors": [
+      {
+        "hex": "#A3A7A8",
+        "image": "https://images.keurig.com/is/image/keurig/K-Cafe-Special-Edition-Coffee-Latte-Cappuccino-Maker_5000341465_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "K-Supreme Plus® Single Serve Coffee Maker",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Supreme-Plus-Single-Serve-Coffee-Maker_5000368403_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$109.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>219<sup>99</sup>",
+    "rating": 3.7,
+    "ratings": 2329,
+    "coupon": "20% OFF - GIFTYBREWS",
+    "banner": "50% OFF WHEN YOU BUILD A KIT",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#BBBCBC",
+        "image": "https://images.keurig.com/is/image/keurig/K-Supreme-Plus-Single-Serve-Coffee-Maker_5000368403_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  },
+  {
+    "productName": "Keurig® K-Café® Barista Bar Single Serve Coffee Maker and...",
+    "productImage": "https://images.keurig.com/is/image/keurig/K-Cafe-Barista-Bar_5000374606_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+    "price_withStarter": "$69.99",
+    "price_siteDeal": "$",
+    "price_original": "<sup>$</sup>139<sup>99</sup>",
+    "rating": 4.8,
+    "ratings": 237,
+    "coupon": "",
+    "banner": "50% OFF WHEN YOU BUILD A KIT",
+    "bannerColor": "#C60000",
+    "bannerTextColor": "#fff",
+    "colors": [
+      {
+        "hex": "#000000",
+        "image": "https://images.keurig.com/is/image/keurig/K-Cafe-Barista-Bar_5000374606_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0",
+        "selected": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+nav {
+  // min-height: 156px;
+  background-color: #ebe9e4;
+  padding: 0 38px;
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100px;
+    .logo {
+      height: 40px;
+      width: 180px;
+      background-image: url("/images/Keurig_logo.svg.png");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .search {
+      font-size: 14px;
+      flex: 1;
+      max-width: 603px;
+      position: relative;
+      input {
+        background-color: #f3f3f3;
+        width: 100%;
+        height: 40px;
+        padding-left: 70px;
+        border-radius: 40px;
+        border: 1px solid #c6c5c3;
+        outline: none;
+        &::placeholder {
+          color: black;
+          opacity: 1; /* Firefox */
+        }
+      }
+      i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 17px;
+        font-size: 28px;
+        font-weight: 600;
+        color: #2e2e2c;
+      }
+    }
+    .actionButtons {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .iconCard {
+        cursor: pointer;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 16px;
+        color: black;
+        text-decoration: none;
+        border-radius: 13px;
+        position: relative;
+        .cartCount {
+          position: absolute;
+          right: 0;
+          top: 5px;
+          font-size: 12px;
+          font-family: monospace;
+          background-color: #ffc92f;
+          width: 20px;
+          aspect-ratio: 1/1;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          border-radius: 50%;
+        }
+        p {
+          margin-bottom: 0;
+          font-size: 13px;
+        }
+        i {
+          font-size: 28px;
+        }
+        svg {
+          max-height: 35px;
+        }
+        &:not(.noHover):hover {
+          background-color: #f0f0f0;
+        }
+      }
+    }
+  }
+  .showcasedSections {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+    .red {
+      color: #ca1434;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+      font-weight: normal;
+      font-size: 1vw;
+      text-decoration: none;
+      color: black;
+      font-weight: 500;
+      min-height: 50px;
+      margin-bottom: 0;
+      .mirror {
+        transform: scaleX(-1);
+      }
+      i {
+        margin-right: 0.7ch;
+        font-size: 19px;
+      }
+      &:not(.noHover):hover {
+        background-color: #f0f0f0;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+.discountBanner {
+  min-height: 92px;
+  width: 100%;
+  background-color: #473036;
+  display: flex;
+  align-items: stretch;
+  padding: 12px 0;
+  .carousel-card {
+    flex: 1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    border-right: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .carousel-card:last-of-type {
+    border: 0;
+  }
+}
+// Between tabletLandscape and mobileLandscape
+@media (max-width: 992px) {
+  nav {
+    .showcasedSections {
+      display: none;
+    }
+  }
+}

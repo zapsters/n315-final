@@ -1,0 +1,35 @@
+.account {
+  margin: 20px auto;
+  max-width: 1200px;
+  min-height: calc(100vh - 200px);
+
+  .flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    section {
+      flex: 1;
+      max-width: 300px;
+      display: flex;
+      align-items: stretch;
+      justify-content: flex-start;
+      flex-direction: column;
+      h1 {
+        text-align: center;
+      }
+      input {
+        width: 98%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        height: 30px;
+      }
+      label {
+        text-align: left;
+      }
+      .btn {
+        width: 50%;
+        height: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.cart {
+  margin: 20px auto;
+  margin-top: 50px;
+  max-width: 1200px;
+  min-height: calc(100vh - 200px);
+
+  .itemCount {
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 6px;
+    text-align: center;
+    width: 100%;
+  }
+  h1 {
+    font-size: 42px;
+    line-height: 50px;
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+  }
+
+  .flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    section {
+      flex: 1;
+      max-width: 300px;
+      display: flex;
+      align-items: stretch;
+      justify-content: flex-start;
+      flex-direction: column;
+      h1 {
+        text-align: center;
+      }
+      input {
+        width: 98%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        height: 30px;
+      }
+      label {
+        text-align: left;
+      }
+      .btn {
+        width: 50%;
+        height: 30px;
+      }
+    }
+  }
+}

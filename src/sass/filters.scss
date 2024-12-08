@@ -1,0 +1,203 @@
+@use "variables";
+.filterDropdownSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 10px;
+
+  .filterDiv {
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 1px 16px;
+    color: black;
+    background-color: white;
+    border: 2px solid #999999;
+    font-size: 14px;
+    border-radius: 3px;
+    position: relative;
+    padding-right: 30px;
+    path {
+      fill: #999999;
+    }
+    .dropdown {
+      position: absolute;
+      right: 10px;
+      width: 18px;
+      background-image: url("/images/dropdown_down.svg");
+      background-size: contain;
+      background-position: center;
+      height: 20px;
+      background-repeat: no-repeat;
+    }
+    &:hover {
+      .dropdown {
+        position: absolute;
+        background-image: url("/images/dropdown_up.svg");
+      }
+      border-color: black;
+      .dropdownSection {
+        display: block;
+      }
+      path {
+        fill: black;
+      }
+    }
+    .dropdownSection {
+      z-index: 1;
+      position: absolute;
+      left: 0;
+      display: none;
+      bottom: 0;
+      transform: translate(0px, 100%);
+      width: 336px;
+      padding: 20px 0 0 0;
+      .arrow {
+        position: absolute;
+        top: 6px;
+        left: 54px;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background-color: #2f4053;
+        border: 2px solid #2f4053;
+        width: 27px;
+        height: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .arrowFill {
+          background-color: white;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          width: 26px;
+          height: 16px;
+          top: 1px;
+          position: absolute;
+        }
+      }
+      .content {
+        border: 2px solid #2f4053;
+        background-color: white;
+        padding: 5px 17px 0px 10px;
+        .search {
+          margin-bottom: 5px;
+          .fa-magnifying-glass {
+            position: absolute;
+            top: 36px;
+            font-size: 17px;
+            left: 17px;
+            font-weight: 600;
+          }
+          input {
+            border-radius: 3px;
+            width: 100%;
+            height: 32px;
+            border: 1px solid black;
+            padding-left: 30px;
+          }
+        }
+        .results {
+          max-height: 244px;
+          overflow-y: scroll;
+
+          div {
+            width: 100%;
+            display: block;
+            text-align: left;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border-bottom: 1px solid #d2d2d2;
+            &:last-of-type {
+              border: 0;
+            }
+            input {
+              margin: 11px 10px;
+              display: block;
+              width: 20px;
+              height: 20px;
+              border: 2px solid #d2d2d2;
+              border-radius: 0px;
+            }
+            label {
+              width: 100%;
+              height: 44px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+    }
+  }
+  .right {
+    border: 0;
+    margin-left: auto;
+    width: 188px;
+    padding-left: 0px;
+    fieldset {
+      border: 0;
+    }
+    .dropdown {
+      right: 10px;
+      position: absolute;
+    }
+    p {
+      font-size: 12px;
+      position: absolute;
+      left: 0;
+      top: 0px;
+    }
+    h1 {
+      font-size: 13px;
+      font-weight: 500;
+      text-align: left;
+      position: absolute;
+      left: 2px;
+      top: 19px;
+    }
+    .dropdownSection {
+      .arrow {
+        left: 110px;
+      }
+      right: 0;
+      left: unset;
+      max-width: 240px;
+      position: absolute;
+    }
+  }
+  .sortBtn {
+    margin-left: 3px;
+    min-height: 50px;
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 1px 16px;
+    color: black;
+    background-color: white;
+    border: 2px solid #000;
+    font-size: 14px;
+    border-radius: 3px;
+    position: relative;
+    // padding-right: 30px;
+    path {
+      fill: #999999;
+    }
+  }
+}
+@media (max-width: variables.$tabletPortrait) {
+  .filterDropdownSection {
+    .filterDiv {
+      display: none;
+    }
+    .sortBtn {
+      display: block;
+    }
+  }
+}

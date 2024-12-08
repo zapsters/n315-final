@@ -1,0 +1,978 @@
+@charset "UTF-8";
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "MarkOT";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+/* End of Reset */
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT-Medium/MarkOT-Medium.eot");
+  src: url("MarkOT-Medium/MarkOT-Medium.eot?#iefix") format("embedded-opentype"), url("MarkOT-Medium/MarkOT-Medium.woff") format("woff"), url("MarkOT-Medium/MarkOT-Medium.woff2") format("woff2"), url("MarkOT-Medium/MarkOT-Medium.ttf") format("truetype"), url("MarkOT-Medium/MarkOT-Medium.svg#MarkOT-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT-Heavy/MarkOT-Heavy.eot");
+  src: url("MarkOT-Heavy/MarkOT-Heavy.eot?#iefix") format("embedded-opentype"), url("MarkOT-Heavy/MarkOT-Heavy.woff") format("woff"), url("MarkOT-Heavy/MarkOT-Heavy.woff2") format("woff2"), url("MarkOT-Heavy/MarkOT-Heavy.ttf") format("truetype"), url("MarkOT-Heavy/MarkOT-Heavy.svg#MarkOT-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MarkOT";
+  src: url("MarkOT/MarkOT.eot");
+  /* IE9 Compat Modes */
+  src: url("MarkOT/MarkOT.eot?#iefix") format("embedded-opentype"), url("MarkOT/MarkOT.woff") format("woff"), url("MarkOT/MarkOT.ttf") format("truetype"), url("MarkOT/MarkOT.svg#MarkOT") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+}
+nav {
+  background-color: #ebe9e4;
+  padding: 0 38px;
+}
+nav .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+}
+nav .top .logo {
+  height: 40px;
+  width: 180px;
+  background-image: url("/images/Keurig_logo.svg.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .top .search {
+  font-size: 14px;
+  flex: 1;
+  max-width: 603px;
+  position: relative;
+}
+nav .top .search input {
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 40px;
+  padding-left: 70px;
+  border-radius: 40px;
+  border: 1px solid #c6c5c3;
+  outline: none;
+}
+nav .top .search input::placeholder {
+  color: black;
+  opacity: 1; /* Firefox */
+}
+nav .top .search i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 17px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #2e2e2c;
+}
+nav .top .actionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav .top .actionButtons .iconCard {
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 16px;
+  color: black;
+  text-decoration: none;
+  border-radius: 13px;
+  position: relative;
+}
+nav .top .actionButtons .iconCard .cartCount {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 12px;
+  font-family: monospace;
+  background-color: #ffc92f;
+  width: 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50%;
+}
+nav .top .actionButtons .iconCard p {
+  margin-bottom: 0;
+  font-size: 13px;
+}
+nav .top .actionButtons .iconCard i {
+  font-size: 28px;
+}
+nav .top .actionButtons .iconCard svg {
+  max-height: 35px;
+}
+nav .top .actionButtons .iconCard:not(.noHover):hover {
+  background-color: #f0f0f0;
+}
+nav .showcasedSections {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+nav .showcasedSections .red {
+  color: #ca1434;
+}
+nav .showcasedSections a {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  font-weight: normal;
+  font-size: 1vw;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  min-height: 50px;
+  margin-bottom: 0;
+}
+nav .showcasedSections a .mirror {
+  transform: scaleX(-1);
+}
+nav .showcasedSections a i {
+  margin-right: 0.7ch;
+  font-size: 19px;
+}
+nav .showcasedSections a:not(.noHover):hover {
+  background-color: #f0f0f0;
+  border-radius: 50px;
+}
+
+.discountBanner {
+  min-height: 92px;
+  width: 100%;
+  background-color: #473036;
+  display: flex;
+  align-items: stretch;
+  padding: 12px 0;
+}
+.discountBanner .carousel-card {
+  flex: 1;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  border-right: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.discountBanner .carousel-card a {
+  color: white;
+  text-decoration: none;
+}
+.discountBanner .carousel-card:last-of-type {
+  border: 0;
+}
+
+@media (max-width: 992px) {
+  nav .showcasedSections {
+    display: none;
+  }
+}
+input,
+select,
+button {
+  font-family: "MarkOT";
+  font-weight: 400;
+}
+
+.img-block {
+  margin: 20px auto;
+  max-width: 1200px;
+}
+.img-block img {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .img-block .show-for-desktop {
+    display: block;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1199px) {
+  .img-block .show-for-tablet-landscape {
+    display: block;
+  }
+}
+@media (min-width: 767px) and (max-width: 1022px) {
+  .img-block {
+    background-color: red;
+  }
+  .img-block .show-for-tablet-portrait {
+    display: block;
+  }
+}
+@media (max-width: 766px) {
+  .img-block .show-for-mobile {
+    display: block;
+  }
+}
+.filterDropdownSection {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0 10px;
+}
+.filterDropdownSection .filterDiv {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 1px 16px;
+  color: black;
+  background-color: white;
+  border: 2px solid #999999;
+  font-size: 14px;
+  border-radius: 3px;
+  position: relative;
+  padding-right: 30px;
+}
+.filterDropdownSection .filterDiv path {
+  fill: #999999;
+}
+.filterDropdownSection .filterDiv .dropdown {
+  position: absolute;
+  right: 10px;
+  width: 18px;
+  background-image: url("/images/dropdown_down.svg");
+  background-size: contain;
+  background-position: center;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+.filterDropdownSection .filterDiv:hover {
+  border-color: black;
+}
+.filterDropdownSection .filterDiv:hover .dropdown {
+  position: absolute;
+  background-image: url("/images/dropdown_up.svg");
+}
+.filterDropdownSection .filterDiv:hover .dropdownSection {
+  display: block;
+}
+.filterDropdownSection .filterDiv:hover path {
+  fill: black;
+}
+.filterDropdownSection .filterDiv .dropdownSection {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  display: none;
+  bottom: 0;
+  transform: translate(0px, 100%);
+  width: 336px;
+  padding: 20px 0 0 0;
+}
+.filterDropdownSection .filterDiv .dropdownSection .arrow {
+  position: absolute;
+  top: 6px;
+  left: 54px;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #2f4053;
+  border: 2px solid #2f4053;
+  width: 27px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.filterDropdownSection .filterDiv .dropdownSection .arrow .arrowFill {
+  background-color: white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  width: 26px;
+  height: 16px;
+  top: 1px;
+  position: absolute;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content {
+  border: 2px solid #2f4053;
+  background-color: white;
+  padding: 5px 17px 0px 10px;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .search {
+  margin-bottom: 5px;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .search .fa-magnifying-glass {
+  position: absolute;
+  top: 36px;
+  font-size: 17px;
+  left: 17px;
+  font-weight: 600;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .search input {
+  border-radius: 3px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid black;
+  padding-left: 30px;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .results {
+  max-height: 244px;
+  overflow-y: scroll;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .results div {
+  width: 100%;
+  display: block;
+  text-align: left;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #d2d2d2;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .results div:last-of-type {
+  border: 0;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .results div input {
+  margin: 11px 10px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #d2d2d2;
+  border-radius: 0px;
+}
+.filterDropdownSection .filterDiv .dropdownSection .content .results div label {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filterDropdownSection .right {
+  border: 0;
+  margin-left: auto;
+  width: 188px;
+  padding-left: 0px;
+}
+.filterDropdownSection .right fieldset {
+  border: 0;
+}
+.filterDropdownSection .right .dropdown {
+  right: 10px;
+  position: absolute;
+}
+.filterDropdownSection .right p {
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+.filterDropdownSection .right h1 {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+  left: 2px;
+  top: 19px;
+}
+.filterDropdownSection .right .dropdownSection {
+  right: 0;
+  left: unset;
+  max-width: 240px;
+  position: absolute;
+}
+.filterDropdownSection .right .dropdownSection .arrow {
+  left: 110px;
+}
+.filterDropdownSection .sortBtn {
+  margin-left: 3px;
+  min-height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding: 1px 16px;
+  color: black;
+  background-color: white;
+  border: 2px solid #000;
+  font-size: 14px;
+  border-radius: 3px;
+  position: relative;
+}
+.filterDropdownSection .sortBtn path {
+  fill: #999999;
+}
+
+@media (max-width: 1023px) {
+  .filterDropdownSection .filterDiv {
+    display: none;
+  }
+  .filterDropdownSection .sortBtn {
+    display: block;
+  }
+}
+.products {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 20px;
+  padding: 0 20px 30px 20px;
+}
+.products .productCard {
+  flex: 20%;
+  min-width: 227px;
+  box-shadow: 0 5px 25px 0 #d2d2d2;
+  max-width: 300px;
+  padding: 80px 10px 40px 10px;
+  position: relative;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+.products .productCard:hover {
+  border: 2px solid #2f4053;
+}
+.products .productCard .productBanner {
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 3px 10px 4px 9px;
+}
+.products .productCard .productCardImage {
+  aspect-ratio: 255/206;
+  width: 100%;
+  background-image: url("https://images.keurig.com/is/image/keurig/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.products .productCard .productColorSelect {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0 3px 5px 0;
+  margin-bottom: 22px;
+}
+.products .productCard .productColorSelect .productColorEntry {
+  cursor: pointer;
+  width: 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50%;
+  transition: outline 1s linear;
+}
+.products .productCard .productColorSelect .productColorEntry.selected {
+  background-color: red;
+}
+.products .productCard .productColorSelect .productColorEntry.selected .productColorEntryOutline {
+  scale: 1.2;
+}
+.products .productCard .productColorSelect .productColorEntry .productColorEntryOutline {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 100%;
+  scale: 0;
+  transition: scale 0.2s linear;
+  background-color: transparent;
+  border: 0px solid white;
+  outline: 2px solid black;
+}
+.products .productCard .productName {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  max-height: 70px;
+  text-overflow: ellipsis;
+}
+.products .productCard .productPrice {
+  color: #424242;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.products .productCard .productPrice sup {
+  font-size: 10px;
+}
+.products .productCard .rating span {
+  padding-left: 5px;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+.products .productCard .rating span i {
+  font-style: normal;
+  font-size: 19px;
+}
+.products .productCard .rating .Stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: 20px;
+  font-family: Times;
+  line-height: 1;
+}
+.products .productCard .rating .Stars::before {
+  content: "★★★★★";
+  letter-spacing: 0px;
+  background: linear-gradient(90deg, #fc0 var(--percent), #dad7da var(--percent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.products .productCard .freeShipping {
+  margin: 10px 0px 10px 0px;
+}
+.products .productCard .buyNowContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.products .productCard .buyNowContainer .buyNowBtn {
+  position: absolute;
+  bottom: 25px;
+  cursor: pointer;
+  width: calc(100% - 50px);
+  margin: 0 auto;
+  border: 2px solid #f1be48;
+  padding: 11px 30px;
+  font-weight: 500;
+  background-color: white;
+  font-size: 14px;
+}
+.products .productCard .buyNowContainer .buyNowBtn:hover {
+  border-color: #2f4053;
+}
+
+.productsCart {
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  gap: 20px;
+  padding: 0 20px 30px 20px;
+  flex-direction: column;
+}
+.productsCart .productCard {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 5px 25px 0 #d2d2d2;
+  padding: 10px;
+  margin-bottom: 13px;
+  position: relative;
+  border-radius: 3px;
+  border: 2px solid transparent;
+}
+.productsCart .productCard:hover {
+  border: 2px solid #2f4053;
+}
+.productsCart .productCard .productInfo {
+  flex: 1;
+}
+.productsCart .productCard .productBanner {
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 3px 10px 4px 9px;
+}
+.productsCart .productCard .productCardImage {
+  aspect-ratio: 255/206;
+  max-width: 205px;
+  width: 100%;
+  background-image: url("https://images.keurig.com/is/image/keurig/K-Brew-and-Chill-Single-Serve-Coffee-Maker_5000380296_swatch?$pdp_general$&fmt=png-alpha&qlt=75,1&op_sharpen=0&resMode=bicub&op_usm=1,1,6,0&iccEmbed=0&printRes=72&extend=0,0,0,0");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.productsCart .productCard .productColorSelect {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  padding: 0 3px 5px 0;
+  margin-bottom: 22px;
+}
+.productsCart .productCard .productColorSelect .productColorEntry {
+  cursor: pointer;
+  width: 20px;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50%;
+  transition: outline 1s linear;
+}
+.productsCart .productCard .productColorSelect .productColorEntry.selected {
+  background-color: red;
+}
+.productsCart .productCard .productColorSelect .productColorEntry.selected .productColorEntryOutline {
+  scale: 1.2;
+}
+.productsCart .productCard .productColorSelect .productColorEntry .productColorEntryOutline {
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 100%;
+  scale: 0;
+  transition: scale 0.2s linear;
+  background-color: transparent;
+  border: 0px solid white;
+  outline: 2px solid black;
+}
+.productsCart .productCard .productName {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 7px;
+  max-height: 70px;
+  text-overflow: ellipsis;
+}
+.productsCart .productCard .productPrice {
+  color: #424242;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+}
+.productsCart .productCard .productPrice sup {
+  font-size: 10px;
+}
+.productsCart .productCard .rating span {
+  padding-left: 5px;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 14px;
+}
+.productsCart .productCard .rating span i {
+  font-style: normal;
+  font-size: 19px;
+}
+.productsCart .productCard .rating .Stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+  display: inline-block;
+  font-size: 20px;
+  font-family: Times;
+  line-height: 1;
+}
+.productsCart .productCard .rating .Stars::before {
+  content: "★★★★★";
+  letter-spacing: 0px;
+  background: linear-gradient(90deg, #fc0 var(--percent), #dad7da var(--percent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.productsCart .productCard .freeShipping {
+  margin: 10px 0px 10px 0px;
+}
+.productsCart .productCard .buyNowContainer {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.productsCart .productCard .buyNowContainer .buyNowBtn {
+  max-width: 140px;
+  bottom: 25px;
+  cursor: pointer;
+  margin: 0 auto;
+  border: 2px solid #f1be48;
+  padding: 5px 7px;
+  font-weight: 300;
+  background-color: white;
+  font-size: 12px;
+}
+.productsCart .productCard .buyNowContainer .buyNowBtn:hover {
+  border-color: #2f4053;
+}
+
+.PurchaseContainer {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.PurchaseContainer .buyNowBtn {
+  max-width: 300px;
+  bottom: 25px;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  border: 4px solid #f1be48;
+  padding: 20px 30px;
+  font-weight: 500;
+  background-color: white;
+  font-size: 14px;
+}
+.PurchaseContainer .buyNowBtn:hover {
+  border-color: #2f4053;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 85px;
+}
+footer .storeLocator {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 16px;
+  color: white;
+  background-color: #3b2b2f;
+  min-height: 58px;
+  width: 100%;
+  padding: 0 133px 0 30px;
+}
+footer .storeLocator .socials {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+}
+footer .storeLocator .businessInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  gap: 16px;
+}
+footer .footerFlexBox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-bottom: 44px;
+}
+footer .footerFlexBox section {
+  padding: 0 15px;
+  flex: 1;
+}
+footer .footerFlexBox h1 {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2d2a26;
+}
+footer .footerFlexBox h1:nth-of-type(2) {
+  margin-top: 30px;
+}
+footer .footerFlexBox a {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #292929;
+}
+footer .footerFlexBox a:hover {
+  text-decoration: underline;
+  color: #4e4e50;
+  text-decoration-color: #2f4053;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+footer .footerFlexBox p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #292929;
+  margin-bottom: 29px;
+}
+footer hr {
+  border: 0.1px solid #cecece;
+  margin-bottom: 20px;
+  scale: 1;
+}
+footer .legalInfo p {
+  text-align: center;
+  width: 100%;
+  font-style: italic;
+  font-size: 12px;
+  color: #2d2a26;
+  margin-bottom: 0;
+}
+footer .legalInfo p i {
+  font-style: normal;
+  margin: 0 10px;
+}
+footer .emailSignup {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-evenly;
+  height: 38px;
+  width: 100%;
+  text-align: left;
+}
+footer .emailSignup .input {
+  border-radius: 3px 0 0 3px;
+  border: 2px solid #d8d8d8;
+  border-right: 0;
+  font-weight: 500;
+  padding-left: 17px;
+}
+footer .emailSignup input {
+  flex: 1;
+  border: 2px solid #d8d8d8;
+}
+footer .emailSignup .btn {
+  max-width: 91px;
+  background-color: white;
+  border-color: #f9c507;
+  cursor: pointer;
+}
+footer .emailSignup .btn:hover {
+  background-color: #f9c507;
+}
+footer .countrySelect {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+footer .countrySelect select {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  padding-right: 20px;
+}
+
+.account {
+  margin: 20px auto;
+  max-width: 1200px;
+  min-height: calc(100vh - 200px);
+}
+.account .flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.account .flexbox section {
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.account .flexbox section h1 {
+  text-align: center;
+}
+.account .flexbox section input {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.account .flexbox section label {
+  text-align: left;
+}
+.account .flexbox section .btn {
+  width: 50%;
+  height: 30px;
+}
+
+.cart {
+  margin: 20px auto;
+  margin-top: 50px;
+  max-width: 1200px;
+  min-height: calc(100vh - 200px);
+}
+.cart .itemCount {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 6px;
+  text-align: center;
+  width: 100%;
+}
+.cart h1 {
+  font-size: 42px;
+  line-height: 50px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.cart .flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart .flexbox section {
+  flex: 1;
+  max-width: 300px;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.cart .flexbox section h1 {
+  text-align: center;
+}
+.cart .flexbox section input {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  height: 30px;
+}
+.cart .flexbox section label {
+  text-align: left;
+}
+.cart .flexbox section .btn {
+  width: 50%;
+  height: 30px;
+}
+
+/*# sourceMappingURL=styles.css.map */
