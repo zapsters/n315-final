@@ -1,6 +1,6 @@
 # Final
 
-Link: https://in-info-web4.luddy.indianapolis.iu.edu/~erballin/n315/final
+Link: https://in-info-web4.luddy.indianapolis.iu.edu/~erballin/n315/final/dist/
 
 ## Purpose
 
