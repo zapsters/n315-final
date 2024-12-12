@@ -29,7 +29,7 @@
       position: absolute;
       right: 10px;
       width: 18px;
-      background-image: url("/images/dropdown_down.svg");
+      background-image: url("images/dropdown_down.svg");
       background-size: contain;
       background-position: center;
       height: 20px;
@@ -38,7 +38,7 @@
     &:hover {
       .dropdown {
         position: absolute;
-        background-image: url("/images/dropdown_up.svg");
+        background-image: url("images/dropdown_up.svg");
       }
       border-color: black;
       .dropdownSection {
