@@ -61,7 +61,7 @@ nav .top {
 nav .top .logo {
   height: 40px;
   width: 180px;
-  background-image: url("images/Keurig_logo.svg.png");
+  background-image: url("../images/Keurig_logo.svg.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -274,7 +274,7 @@ button {
   position: absolute;
   right: 10px;
   width: 18px;
-  background-image: url("images/dropdown_down.svg");
+  background-image: url("../images/dropdown_down.svg");
   background-size: contain;
   background-position: center;
   height: 20px;
@@ -285,7 +285,7 @@ button {
 }
 .filterDropdownSection .filterDiv:hover .dropdown {
   position: absolute;
-  background-image: url("images/dropdown_up.svg");
+  background-image: url("../images/dropdown_up.svg");
 }
 .filterDropdownSection .filterDiv:hover .dropdownSection {
   display: block;
